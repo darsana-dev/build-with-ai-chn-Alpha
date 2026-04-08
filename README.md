@@ -53,10 +53,10 @@ Antigravity IDE was used for development and rapid prototyping.
 Google AI Usage
 
 Tools and Models Used
-Google Gemini 1.5 Flash
+Google Gemini 2.5 Flash
 
 How Google AI Was Used
-Gemini 1.5 Flash is integrated as the core intelligence layer of CyberLens. It analyzes links, text inputs, and contextual data to detect phishing attempts, prompt injection attacks, and suspicious patterns.
+Gemini 2.5 Flash is integrated as the core intelligence layer of CyberLens. It analyzes links, text inputs, and contextual data to detect phishing attempts, prompt injection attacks, and suspicious patterns.
 
 The AI model generates structured outputs including risk scores, threat classifications, and recommended actions. These outputs are used by the system to guide user decisions.
 
@@ -90,16 +90,21 @@ Run the project
 npm start
 
 Security and Privacy
+
 CyberLens follows a user-driven approach, ensuring that all actions are transparent and require user consent. Only minimal data is processed for AI analysis, and results are clearly explained to the user.
 
 Challenges Faced
+
 Key challenges included integrating real-time AI analysis with low latency, designing a seamless browser interception flow, and minimizing false positives in threat detection.
 
 Unique Value Proposition
+
 CyberLens provides proactive, AI-driven threat detection at the point of interaction. By analyzing content before execution and involving the user in decision-making, it enhances both security and transparency.
 
 Future Scope
+
 Future development will focus on extending CyberLens to mobile platforms, including real-time call analysis, advanced file inspection, image threat detection, and device-level monitoring.
 
 Conclusion
+
 CyberLens is a proactive AI-based security system that helps users identify and avoid threats
